@@ -35,9 +35,9 @@ public class Articolo {
 
     @Override
     public String toString() {
-        return "Articolo numero:" + idArticolo +
+        return "\n  Articolo numero:" + idArticolo +
                 "\n descrizione articolo= '" + descArticolo + '\'' +
                 "\n prezzo articolo= €" + prezzoArticolo +
-                "\n numero pezzi dell'articolo= " + numPezzi;
+                "\n numero pezzi dell'articolo= " + numPezzi + "\n";
     }
 }
